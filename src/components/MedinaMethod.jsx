@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { benefits } from '../assets/benefits';
 styled;
 
 const MedinaContainer = styled.h4`
@@ -12,11 +13,30 @@ const MedinaContainer = styled.h4`
   padding: 2em;
 `;
 
+const MedinaTitle = styled.div`
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+  line-height: 1em;
+  text-transform: uppercase;
+`;
+
+const Item = styled.li`
+  list-style: none;
+  margin: 0.5em;
+  padding: 1em;
+  background-color: #f6c402;
+  color: #19355c;
+  border-radius: 10px;
+`;
+
 export const MedinaMethod = () => {
   return (
     <MedinaContainer>
-      Vas a aprender con el mismo enfoque que los estudiantes de conocimiento en
-      Medina. Este es el método que utilicé para dominar el árabe en 2 años.
+      <MedinaTitle>¿Por qué Nahwi es diferente?</MedinaTitle>
+      {benefits.map((benefit) => (
+        <Item key={benefit.id}>{benefit.description}</Item>
+      ))}
     </MedinaContainer>
   );
 };

@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 import { ButtonCTA } from './ButtonCTA';
 import khaledKhutba from '../assets/images/khaledImgKhutba.webp';
-import { ContactForm } from './ContactForm';
 
 const WellcomeContainer = styled.div`
   display: flex;
@@ -58,18 +57,20 @@ export const Wellcome = () => {
   return (
     <WellcomeContainer>
       <Title>
-        Aprende árabe de la A a la Z con total fluidez. Garantía de éxito al
-        finalizar el curso
+        ¿Harto de intentarlo sin resultados? Aprende árabe de una vez por
+        todas... ¡y empieza a hablarlo ya!
       </Title>
       <SubTitle>
-        Te presentaré cómo nuestros estudiantes avanzan desde el primer día
-        hasta alcanzar la fluidez. Después, podrás decidir si quieres
-        experimentar este mismo progreso con nuestro programa de árabe.
+        Si llevas tiempo pensando en aprender árabe y no lo has hecho porque
+        crees que es complicado, lento o imposible para ti... estás en el lugar
+        adecuado. NahwiPro te enseña el idioma desde el primer día, de manera
+        clara, sencilla y diseñada para hispanohablantes como tú.
       </SubTitle>
       <Card>
         <ImgCard></ImgCard>
         <TextCard>Aprender el árabe es posible si sabes como</TextCard>
       </Card>
+      <h2>¿Estás listo para empezar?</h2>
       <ButtonCTA />
     </WellcomeContainer>
   );
