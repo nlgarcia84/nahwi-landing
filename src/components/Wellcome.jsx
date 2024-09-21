@@ -36,8 +36,8 @@ const Card = styled.div`
 `;
 
 const ImgCard = styled.div`
-  width: 300px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   font-family: 'Open Sans', sans-serif;
 
   background-image: url(${khaledKhutba});
@@ -46,7 +46,7 @@ const ImgCard = styled.div`
 `;
 
 const TextCard = styled.div`
-  width: 300px;
+  width: 400px;
   height: auto;
   background-color: white;
   font-size: 1.5em;

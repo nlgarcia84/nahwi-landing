@@ -13,12 +13,13 @@ const WhyContainer = styled.div`
 const WhyTitle = styled.div`
   font-size: 2.5em;
   margin-bottom: 0.5em;
+  font-weight: bold;
 `;
 
 const WhyText = styled.div`
   font-family: 'Open Sans', sans-serif;
   text-align: center;
-  padding: 1em;
+  padding: 1em 2em;
 `;
 
 export const WhySection = () => {
