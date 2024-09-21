@@ -72,8 +72,8 @@ export const ContactForm = () => {
     };
 
     emailjs
-      .send('service_gf4467b', 'template_2fo2l2y', templateParams, {
-        publicKey: 'jDbcJwkjb1cOv6TaA',
+      .send('service_tjg22gj', 'template_067v4im', templateParams, {
+        publicKey: 'GkReJvzgDEJ5TvC7K',
       })
       .then(
         () => {

@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import { ButtonCTA } from './ButtonCTA';
 import khaledKhutba from '../assets/images/khaledImgKhutba.webp';
+import { ContactForm } from './ContactForm';
 
 const WellcomeContainer = styled.div`
   display: flex;
