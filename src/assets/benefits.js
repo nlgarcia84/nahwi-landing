@@ -17,6 +17,6 @@ export const benefits = [
   {
     id: 3,
     description:
-      'Soporte personalizado.* No estarás solo en esto. Te acompañamos paso a paso para que no te quedes atascado.',
+      'Soporte personalizado. No estarás solo en esto. Te acompañamos paso a paso para que no te quedes atascado.',
   },
 ];
