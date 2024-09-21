@@ -9,7 +9,7 @@ const WellcomeContainer = styled.div`
   background-color: #19355c;
   color: white;
   text-align: center;
-  padding: 3em;
+  padding: 2em;
 `;
 
 const Title = styled.h1`
