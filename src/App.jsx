@@ -4,6 +4,8 @@ import { WhySection } from './components/WhySection';
 import { MedinaMethod } from './components/MedinaMethod';
 import { Focus } from './components/Focus';
 import { ContactForm } from './components/ContactForm';
+import { Footer } from './components/Footer';
+
 function App() {
   return (
     <>
@@ -13,6 +15,7 @@ function App() {
       <MedinaMethod />
       <Focus />
       <ContactForm />
+      <Footer />
     </>
   );
 }
