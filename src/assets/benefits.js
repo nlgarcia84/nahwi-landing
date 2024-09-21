@@ -17,6 +17,6 @@ export const benefits = [
   {
     id: 3,
     description:
-      'Soporte personalizado. No estarás solo en esto. Te acompañamos paso a paso para que no te quedes atascado.',
+      'Acceso a grupo privado de Telegram. No estarás solo en esto. Te acompañamos paso a paso para que no te quedes atascado.',
   },
 ];
