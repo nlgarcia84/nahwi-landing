@@ -35,7 +35,7 @@ const Card = styled.div`
 `;
 
 const ImgCard = styled.div`
-  width: 300px;
+  width: 100%;
   height: 300px;
   font-family: 'Open Sans', sans-serif;
 

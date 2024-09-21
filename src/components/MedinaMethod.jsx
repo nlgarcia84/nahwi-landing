@@ -25,7 +25,7 @@ const Item = styled.li`
   list-style: none;
   margin: 0.5em;
   padding: 1em;
-  background-color: #f6c402;
+  background-color: #cad4e2;
   color: #19355c;
   border-radius: 10px;
 `;
