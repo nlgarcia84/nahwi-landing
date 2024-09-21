@@ -8,6 +8,7 @@ const WhyContainer = styled.div`
   justify-content: center;
   align-items: center;
   padding: 1em;
+  text-align: center;
 `;
 
 const WhyTitle = styled.div`

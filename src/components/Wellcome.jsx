@@ -9,7 +9,7 @@ const WellcomeContainer = styled.div`
   background-color: #19355c;
   color: white;
   text-align: center;
-  padding: 5em;
+  padding: 3em;
 `;
 
 const Title = styled.h1`
@@ -32,12 +32,11 @@ const Card = styled.div`
   border-radius: 10px;
   overflow: hidden;
   margin: 1em;
-  width: 100%;
 `;
 
 const ImgCard = styled.div`
-  width: 400px;
-  height: 400px;
+  width: 300px;
+  height: 300px;
   font-family: 'Open Sans', sans-serif;
 
   background-image: url(${khaledKhutba});
@@ -46,7 +45,6 @@ const ImgCard = styled.div`
 `;
 
 const TextCard = styled.div`
-  width: 400px;
   height: auto;
   background-color: white;
   font-size: 1.5em;

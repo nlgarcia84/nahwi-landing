@@ -8,7 +8,7 @@ const PageTitle = styled.h1`
 
 const FormContainer = styled.div`
   text-align: center;
-  padding: 5em;
+  padding: 2em;
   background-color: #19355c;
   color: white;
 `;
