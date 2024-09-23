@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Wellcome } from './Wellcome';
+import { Link, useNavigate } from 'react-router-dom';
 
 // Styled-components para estilizar el componente
 const Container = styled.div`
@@ -33,7 +35,24 @@ const Strong = styled.strong`
   font-weight: bold;
 `;
 
+const BackLink = styled(Link)`
+  display: inline-block;
+  margin-top: 20px;
+  color: #19355c;
+  text-decoration: none;
+  font-weight: bold;
+
+  &:hover {
+    text-decoration: underline;
+  }
+`;
+
 export const LopdPage = () => {
+  const navigate = useNavigate();
+  const handleBackLink = () => {
+    navigate('/');
+    window.scroll(0, 0);
+  };
   return (
     <Container>
       <Title>Política de Privacidad de NahwiPro</Title>
@@ -154,6 +173,9 @@ export const LopdPage = () => {
           <Strong>Dirección postal:</Strong> [Dirección de la empresa]
         </ListItem>
       </List>
+      <BackLink onClick={handleBackLink} to="/" element={<Wellcome />}>
+        Volver
+      </BackLink>
     </Container>
   );
 };
