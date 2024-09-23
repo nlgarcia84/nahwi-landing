@@ -33,7 +33,7 @@ const Item = styled.li`
 export const MedinaMethod = () => {
   return (
     <MedinaContainer>
-      <MedinaTitle>¿Por qué Nahwi es diferente?</MedinaTitle>
+      <MedinaTitle>¿Por qué NahwiPro es diferente?</MedinaTitle>
       {benefits.map((benefit) => (
         <Item key={benefit.id}>{benefit.description}</Item>
       ))}

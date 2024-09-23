@@ -12,7 +12,7 @@ export const benefits = [
   {
     id: 2,
     description:
-      'Profesores que saben lo que hacen. Son nativos, con experiencia y saben exactamente cómo enseñarte para que avances rápido y sin frustraciones.',
+      'Khaled sabe exactamente cómo enseñarte para que avances rápido y sin frustraciones.',
   },
   {
     id: 3,
