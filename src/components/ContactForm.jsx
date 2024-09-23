@@ -44,12 +44,19 @@ const Button = styled.button`
   border: none;
   padding: 1em 2em;
   margin: 2em;
+  border-radius: 10px;
 `;
 
 const Span = styled.span`
   display: block;
   color: tomato;
   font-size: x-small;
+`;
+
+const Lopd = styled.a`
+  text-decoration: none;
+  color: white;
+  padding: 1em;
 `;
 
 export const ContactForm = () => {
@@ -153,9 +160,9 @@ export const ContactForm = () => {
               },
             })}
           />
-          <a target="_blank" href="src/pages/lopd.html">
+          <Lopd target="_blank" href="src/pages/lopd.html">
             Acepto la política de privacidad
-          </a>
+          </Lopd>
           {errors.lopd && <Span>{errors.lopd.message}</Span>}
           <DivButton>
             <Button type="submit">Enviar</Button>
