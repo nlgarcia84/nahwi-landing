@@ -159,7 +159,7 @@ export const ContactForm = () => {
               },
             })}
           />
-          <Lopd target="_blank" href="src/pages/lopd.html">
+          <Lopd target="_blank" href="../src/pages/lopd.html">
             Acepto la política de privacidad
           </Lopd>
           {errors.lopd && <Span>{errors.lopd.message}</Span>}
