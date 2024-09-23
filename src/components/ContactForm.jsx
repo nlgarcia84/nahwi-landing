@@ -54,7 +54,6 @@ const Span = styled.span`
 `;
 
 const Lopd = styled.a`
-  text-decoration: none;
   color: white;
   padding: 1em;
 `;
