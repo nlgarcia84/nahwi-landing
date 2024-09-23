@@ -143,7 +143,7 @@ export const ContactForm = () => {
           </ItemForm>
           <input
             style={{
-              marginBottom: '2em',
+              marginBottom: '1em',
             }}
             type="checkbox"
             {...register('lopd', {
@@ -153,7 +153,9 @@ export const ContactForm = () => {
               },
             })}
           />
-          Acepto la política de privacidad
+          <a target="_blank" href="src/pages/lopd.html">
+            Acepto la política de privacidad
+          </a>
           {errors.lopd && <Span>{errors.lopd.message}</Span>}
           <DivButton>
             <Button type="submit">Enviar</Button>
