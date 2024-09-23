@@ -1,4 +1,5 @@
 import { useForm } from 'react-hook-form';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import emailjs from '@emailjs/browser';
 
@@ -51,11 +52,6 @@ const Span = styled.span`
   display: block;
   color: tomato;
   font-size: x-small;
-`;
-
-const Lopd = styled.a`
-  color: white;
-  padding: 1em;
 `;
 
 export const ContactForm = () => {
@@ -159,9 +155,7 @@ export const ContactForm = () => {
               },
             })}
           />
-          <Lopd target="_blank" href="/src/pages/lopd.html">
-            Acepto la política de privacidad
-          </Lopd>
+          <Link to="/lopd">Acepto la política de privacidad</Link>
           {errors.lopd && <Span>{errors.lopd.message}</Span>}
           <DivButton>
             <Button type="submit">Enviar</Button>
