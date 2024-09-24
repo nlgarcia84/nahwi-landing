@@ -1,10 +1,14 @@
 import styled from 'styled-components';
+import Instagram from '../assets/images/ig.webp';
+import Tiktok from '../assets/images/tiktok.webp';
+import XSocial from '../assets/images/x.webp';
 
 const FooterBox = styled.div`
   padding: 2em;
   background-color: ${(props) => props.theme.colors.textColor};
   color: white;
   text-align: center;
+  font-size: 1em;
 `;
 
 const SocialMediaContainer = styled.div`
@@ -28,16 +32,16 @@ export const Footer = () => {
   return (
     <>
       <FooterBox>
-        <Rights>2024 - Desarrollado por Desertdrop ©</Rights>
+        <Rights>2024 - Desarrollado or Desertdrop ©</Rights>
         <SocialMediaContainer>
           <a href="https://www.instagram.com/nahwi.pro/" target="_blank">
-            <Img src="src/assets/images/ig.webp" />
+            <Img src={Instagram} />
           </a>
           <a href="https://www.tiktok.com/@nahwi.pro" target="_blank">
-            <Img src="src/assets/images/tiktok.webp" />
+            <Img src={Tiktok} />
           </a>
           <a href="https://www.x.com/nahwipro/" target="_blank">
-            <Img src="src/assets/images/x.webp" />
+            <Img src={XSocial} />
           </a>
         </SocialMediaContainer>
       </FooterBox>
