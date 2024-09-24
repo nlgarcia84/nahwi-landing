@@ -32,7 +32,7 @@ export const Footer = () => {
   return (
     <>
       <FooterBox>
-        <Rights>2024 - Desarrollado or Desertdrop ©</Rights>
+        <Rights>2024 - Desarrollado por Desertdrop ©</Rights>
         <SocialMediaContainer>
           <a href="https://www.instagram.com/nahwi.pro/" target="_blank">
             <Img src={Instagram} />
