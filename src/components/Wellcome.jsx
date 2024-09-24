@@ -9,7 +9,7 @@ const WellcomeContainer = styled.div`
   background-color: #19355c;
   color: white;
   text-align: center;
-  padding: 2em;
+  padding: 3em 2em;
 `;
 
 const Title = styled.h1`
@@ -51,6 +51,11 @@ const TextCard = styled.div`
   line-height: 1em;
   color: black;
   padding: 1em;
+  margin-bottom: 1em;
+`;
+
+const H2 = styled.h2`
+  margin-bottom: 1em;
 `;
 
 export const Wellcome = () => {
@@ -70,7 +75,7 @@ export const Wellcome = () => {
         <ImgCard></ImgCard>
         <TextCard>Aprender el árabe es posible si sabes como</TextCard>
       </Card>
-      <h2>¿Estás listo para empezar?</h2>
+      <H2>¿Estás listo para empezar?</H2>
       <ButtonCTA />
     </WellcomeContainer>
   );
